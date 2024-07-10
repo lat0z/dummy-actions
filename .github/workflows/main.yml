@@ -28,6 +28,7 @@ jobs:
           echo $JAVA_HOME
           ls -l $JAVA_HOME/bin/java
           java --version
+          echo "separador"
           mvn -v
 
       - name: build dummy
