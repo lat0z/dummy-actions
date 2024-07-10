@@ -30,6 +30,8 @@ jobs:
           java --version
           echo "separador"
           mvn -v
+          echo "otro separador"
+          ls -l /usr/lib/jvm/temurin-11-jdk-amd64
 
       - name: build dummy
         run: |
