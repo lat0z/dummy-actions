@@ -28,7 +28,7 @@ jobs:
           echo $JAVA_HOME
           ls -l $JAVA_HOME/bin/java
           java --version
-          # mvn --debug
+          mvn -v
 
       - name: build dummy
         run: |
